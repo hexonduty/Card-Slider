@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#card{
+    width: 500px;
+    height: 310px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding-top: 10px;
+    border: 1px solid #535353;
+    position: relative;
+}
+
+
+#card .card-img img{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+
+#card .card-name{
+    color: black;
+}
+
+#card .card-head{
+    color: #9897978d;
+}
+
+#card .card-desc p{
+    width: 390px;
+    color: #000000;
+    padding: 5px;
+}
+
+#card .card-buttons{
+    padding-top: 12px;
+    display: flex;
+    gap: 16px;
+}
+
+#card .card-buttons button{
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+
+
+#cardSecond{
+    width: 500px;
+    height: 310px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding-top: 10px;
+    border: 1px solid #535353;
+    position: relative;
+}
+
+#cardSecond .card-img img{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+
+#cardSecond .card-name{
+    color: black;
+}
+
+#cardSecond .card-head{
+    color: #6262628d;
+}
+
+#cardSecond .card-desc p{
+    width: 390px;
+    color: black;
+    padding: 5px;
+}
+
+#cardSecond .card-buttons{
+    padding-top: 12px;
+    display: flex;
+    gap: 16px;
+}
+
+#cardSecond .card-buttons button{
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+
